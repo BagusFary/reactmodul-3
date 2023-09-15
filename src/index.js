@@ -3,12 +3,31 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './Components/Header';
+import Lifecycle from './Components/Lifecycle';
+import Login from './Components/Form/Login';
+// import HelloComponent from './Components/HelloComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+//Function dibawah tidak menghasilkan apapun
+function HelloComponent() {
+  return HelloComponent
+}
+
+//Class dibawah hampir memiliki fungsi yang sama dengan function stateless
+class StateFullComponent extends React.Component {
+  render(){
+    return<p>StateFullComponent</p>
+  }
+}
+
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Login />
   </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
