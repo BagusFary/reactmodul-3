@@ -1,4 +1,5 @@
 import react, {Component} from 'react';
+//function statefull untuk merender gambar menggunakan props
 class Image extends Component {
     render() {
         return (

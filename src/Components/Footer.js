@@ -1,4 +1,5 @@
 import React from 'react';
+//Function stateless menggunakan arrow function dan props
 const Footer = (props) => {
     return (
         <>

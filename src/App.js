@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import List from './Components/List';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+//function statefull untuk merender komponen header, list dan footer
 class App extends Component {
   render(){
     return (

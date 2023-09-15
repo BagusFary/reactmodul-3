@@ -1,4 +1,4 @@
-
+//Function Stateless untuk dirender
 function Header(){
     return(
         <>

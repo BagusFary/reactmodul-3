@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Image from './Image';
+//function statefull untuk merender list gambar
 class List extends Component {
     render(){
         return (
