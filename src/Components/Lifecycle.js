@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+//Menurut saya Lifecycle dapat digunakan untuk membuat sebuah aplikasi yang interaktif dan realtime secara teratur.
 class Test extends React.Component {
     constructor(props)
     {
